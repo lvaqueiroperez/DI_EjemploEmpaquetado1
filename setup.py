@@ -25,7 +25,7 @@ setup(
         'paquete1' : 'notas.txt',
         'paquete/subPaquete1' : 'texto.txt'
     },
-    data_files = [('datos','dat/datos.txt')],
+    data_files = [('datos',['dat/datos.txt'])],
     entry_points = {'console_scripts': ['imprimeAlgo = paquete1.moduloPaquete1: main',],}
 
 )

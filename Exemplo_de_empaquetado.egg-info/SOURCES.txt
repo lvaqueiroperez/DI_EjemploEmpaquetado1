@@ -1,0 +1,11 @@
+MANIFEST.in
+setup.py
+Exemplo_de_empaquetado.egg-info/PKG-INFO
+Exemplo_de_empaquetado.egg-info/SOURCES.txt
+Exemplo_de_empaquetado.egg-info/dependency_links.txt
+Exemplo_de_empaquetado.egg-info/entry_points.txt
+Exemplo_de_empaquetado.egg-info/top_level.txt
+paquete1/__init__.py
+paquete1/moduloPaquete1.py
+paquete1/subPaquete1/__init__.py
+paquete1/subPaquete1/faiAlgo2.py
