@@ -27,6 +27,8 @@ setup(
     },
     #no funciona con esto:
     #data_files = [('datos',['dat/datos.txt'])],
+    #ES UN DICCIONARIO DE DATOS, PARA PONER OTRA FUNCIÓN EN NUESTRO PAQUETE, HABRÍA QUE PODENERLA DE LA MISMA MANERA QUE ABAJO EN EL DICCIONARIO:
+    #'console_scripts': ['faiAlgo2 = paquete1.subpaquete1.faiAlgo2: main',]
     entry_points = {'console_scripts': ['imprimeAlgo = paquete1.moduloPaquete1: main',],}
 
 )
